@@ -1,0 +1,6 @@
+-tax collector
+-place buildings that produce certain resources per tick.
+-buildings are only online when connected to a path.
+-town hall is main building and roads must connect there.
+-goal is to have as high population as possible.
+-certain resources make town happiness increase. happy people pay more tax.

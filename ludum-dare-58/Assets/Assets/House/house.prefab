@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8271049513646656083
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4494292652972227559, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494292652972227559, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494292652972227559, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494292652972227559, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494292652972227559, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494292652972227559, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494292652972227559, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494292652972227559, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494292652972227559, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494292652972227559, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642937879012623850, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 48fc54082dfd1ce4ebc46010ad334422, type: 3}
+    - target: {fileID: 7642937879012623850, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8024286361411551354, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
+      propertyPath: title
+      value: House
+      objectReference: {fileID: 0}
+    - target: {fileID: 8024286361411551354, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
+      propertyPath: description
+      value: Somewhere for your people to live. Provides [+4] housing Requires [12]
+        wood.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8535242029103333141, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
+      propertyPath: m_Name
+      value: house
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804827583928332077, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
+      propertyPath: requiredWood
+      value: 12
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8535242029103333141, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
+      insertIndex: 2
+      addedObject: {fileID: -7267099042424880054}
+    - targetCorrespondingSourceObject: {fileID: 8535242029103333141, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2941970431351711579}
+  m_SourcePrefab: {fileID: 100100000, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
+--- !u!1 &341128784992515398 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8535242029103333141, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
+  m_PrefabInstance: {fileID: 8271049513646656083}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-7267099042424880054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341128784992515398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5ddebcbb69f6064b954f5e889f43172, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RandomSprite
+  sprites:
+  - {fileID: 21300000, guid: 48fc54082dfd1ce4ebc46010ad334422, type: 3}
+  - {fileID: 21300000, guid: 0d9fdc7b149f1ef489cead388339011d, type: 3}
+  - {fileID: 21300000, guid: d7fbff368cdf24e4db4f10f8eff1626a, type: 3}
+--- !u!114 &2941970431351711579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341128784992515398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 840c8e60ec1674342ba9627a25541ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::House

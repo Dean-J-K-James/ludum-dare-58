@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128"
+   height="128"
+   viewBox="0 0 33.866666 33.866666"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="lumberjack-hut.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="5.8810095"
+     inkscape:cx="91.225835"
+     inkscape:cy="67.250359"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="axonomgrid"
+       id="grid3"
+       units="px"
+       originx="0"
+       originy="8.4666665"
+       spacingx="0.99999998"
+       spacingy="2.1166666"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="8"
+       dotted="false"
+       gridanglex="26.565051"
+       gridanglez="26.565051"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#b0926a;fill-opacity:1;stroke-width:2.11667"
+       d="M 0,25.399999 V 23.283332 L 16.933333,31.75 v 2.116666 z"
+       id="path1" />
+    <path
+       style="fill:#977e5b;fill-opacity:1;stroke-width:2.11667"
+       d="m 16.933333,31.75 16.933333,-8.466668 v 2.116667 l -16.933333,8.466667 z"
+       id="path2" />
+    <path
+       style="fill:#47922e;fill-opacity:1;stroke-width:2.11667"
+       d="m 0,23.283332 v -2.116666 l 16.933333,8.466667 V 31.75 Z"
+       id="path3" />
+    <path
+       style="fill:#3d7e29;fill-opacity:1;stroke-width:2.11667"
+       d="m 16.933333,29.633333 16.933333,-8.466667 v 2.116666 L 16.933333,31.75 Z"
+       id="path4" />
+    <path
+       style="fill:#5b9c1f;fill-opacity:1;stroke-width:2.11667"
+       d="m 0,21.166666 16.933333,-8.466667 16.933333,8.466667 -16.933333,8.466667 z"
+       id="path5" />
+    <path
+       style="fill:#c87137;stroke-width:2.11667"
+       d="M 4.2333333,21.166666 V 8.4666663 L 16.933333,14.816666 v 12.7 z"
+       id="path6" />
+    <path
+       style="fill:#a05a2c;stroke-width:2.11667"
+       d="m 16.933333,27.516666 12.7,-6.35 V 8.4666663 l -12.7,6.3499997 z"
+       id="path7" />
+    <path
+       style="fill:#deaa87;stroke-width:2.11667"
+       d="m 4.2333333,8.4666663 12.6999997,-6.3499997 12.7,6.3499997 -12.7,6.3499997 z"
+       id="path8" />
+    <path
+       style="fill:#a05a2c;stroke-width:2.11667"
+       d="m 8.4666663,23.283332 v -4.233333 l 2.1166667,1.058334 v 4.233333 z"
+       id="path9" />
+  </g>
+</svg>
