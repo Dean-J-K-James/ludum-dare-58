@@ -13,12 +13,14 @@ public class ResourceManager : Singleton<ResourceManager>
     public UIResource uiHousing; //
     public UIResource uiPopulation; //
     public UIResource uiFood; //
+    public UIResource uiTaxes; //
 
     public int townhall { get; private set; }
     public int wood { get; private set; }
     public int housing { get; private set; }
     public int population { get; private set; }
     public int food { get; private set; }
+    public int taxes { get; private set; }
 
     void Start()
     {
@@ -28,7 +30,9 @@ public class ResourceManager : Singleton<ResourceManager>
         population = 0;
         food = 0;
         ChangeWood(25);
+        ChangeTaxes(50);
         ChangePopulation(0);
+        ChangeFood(25);
     }
 
     public void ChangeTownhall(int amount)
@@ -63,5 +67,11 @@ public class ResourceManager : Singleton<ResourceManager>
         food += amount;
         food = Mathf.Clamp(food, 0, 999);
         uiFood.value.text = food.ToString();
+    }
+    public void ChangeTaxes(int amount)
+    {
+        taxes += amount;
+        taxes = Mathf.Clamp(taxes, 0, 100);
+        uiTaxes.value.text = taxes.ToString();
     }
 }

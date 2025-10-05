@@ -61,6 +61,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8024286361411551354, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 1050427027, guid: 863149c5d21d70342abb42e0e569491c, type: 3}
+    - target: {fileID: 8024286361411551354, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
       propertyPath: title
       value: Dirt Road
       objectReference: {fileID: 0}
@@ -114,3 +118,4 @@ MonoBehaviour:
   - {fileID: -1083210789, guid: 863149c5d21d70342abb42e0e569491c, type: 3}
   - {fileID: -926794983, guid: 863149c5d21d70342abb42e0e569491c, type: 3}
   - {fileID: 1190798982, guid: 863149c5d21d70342abb42e0e569491c, type: 3}
+  connectedToTownhall: 0

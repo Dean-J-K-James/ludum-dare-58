@@ -26,7 +26,7 @@ public class UIBuildingList : MonoBehaviour
 
             btn.building = building;
             btn.title.text = building.title;
-            btn.icon.sprite = building.GetComponent<SpriteRenderer>().sprite;
+            btn.icon.sprite = building.icon;
 
             buttons.Add(btn);
         }
@@ -38,7 +38,7 @@ public class UIBuildingList : MonoBehaviour
         {
             var valid = button.building.GetComponent<BuildingValidator>().IsValid();
 
-            button.gameObject.SetActive(valid);
+            button.State(valid);
         }
     }
 }

@@ -50,11 +50,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6485993234194510308, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
       propertyPath: sizex
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6485993234194510308, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
       propertyPath: sizey
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7642937879012623850, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
       propertyPath: m_Size.x
@@ -67,18 +67,22 @@ PrefabInstance:
     - target: {fileID: 7642937879012623850, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 0c36c6791345ba34a82c4e6309b448a5, type: 3}
+      objectReference: {fileID: 21300000, guid: 5bcbbb06cf8d0354193cdf94717846c6, type: 3}
     - target: {fileID: 7642937879012623850, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8024286361411551354, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 21300000, guid: bfed4f370df806b4ca01ba114cd1d44b, type: 3}
     - target: {fileID: 8024286361411551354, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
       propertyPath: title
       value: Townhall
       objectReference: {fileID: 0}
     - target: {fileID: 8024286361411551354, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
       propertyPath: description
-      value: The headquaters of council and home of the mayor. Can't build a town
+      value: Headquaters of the council and home of the mayor. Can't build a town
         without one.
       objectReference: {fileID: 0}
     - target: {fileID: 8535242029103333141, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
@@ -98,7 +102,15 @@ PrefabInstance:
       value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8804827583928332077, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
+      propertyPath: requiredTaxes
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804827583928332077, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
       propertyPath: requiredTownhall
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804827583928332077, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
+      propertyPath: requiresNearbyRoad
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

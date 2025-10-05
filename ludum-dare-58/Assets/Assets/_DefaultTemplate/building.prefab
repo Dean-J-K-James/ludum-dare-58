@@ -99,6 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BuildingValidator
   requiresNoBuilding: 1
+  requiresNearbyRoad: 1
   minTownhall: 1
   maxTownhall: 999
   requiredWood: 0

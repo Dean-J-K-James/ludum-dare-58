@@ -10,9 +10,11 @@ using UnityEngine;
 public class BuildingValidator : MonoBehaviour
 {
     public bool requiresNoBuilding;
+    public bool requiresNearbyRoad;
     public int minTownhall;
     public int maxTownhall;
     public int requiredWood;
+    public int requiredTaxes;
 
     /**
      * 
@@ -20,6 +22,8 @@ public class BuildingValidator : MonoBehaviour
     public bool IsValid(int x, int y)
     {
         var tile = GetComponent<Tile>();
+
+        var connected = false;
 
         for (int i = x; i < x + tile.sizex; i++)
             for (int j = y; j < y + tile.sizey; j++)
@@ -38,9 +42,45 @@ public class BuildingValidator : MonoBehaviour
                 {
                     return false;
                 }
+
+                if (name == "road")
+                {
+                    for (int q = i - 1; q <= i + 1; q++)
+                        for (int w = j - 1; w <= j + 1; w++)
+                        {
+                            //if (q == i && w == j) continue;
+                            //dont do diagonals
+                            if (Mathf.Abs(q - i) + Mathf.Abs(w - j) == 2) continue;
+
+                            var testtile = World.I.GetTile(q, w);
+                            if (testtile != null && testtile.name == "townhall")
+                            {
+                                connected = true;
+                            }
+                        }
+                }
+
+                if (requiresNearbyRoad)
+                {
+                    for (int q = i - 1; q <= i + 1; q++)
+                        for (int w = j - 1; w <= j + 1; w++)
+                        {
+                            if (Mathf.Abs(q - i) + Mathf.Abs(w - j) == 2) continue;
+
+                            var testtile = World.I.GetTile(q, w);
+                            if (testtile != null && testtile.name == "road")
+                            {
+                                connected = true;
+                            }
+                        }
+                }
+                else
+                {
+                    connected = true;
+                }
             }
 
-        return true;
+        return connected;
     }
 
     /**
@@ -54,6 +94,11 @@ public class BuildingValidator : MonoBehaviour
         }
 
         if (ResourceManager.I.wood < requiredWood)
+        {
+            return false;
+        }
+
+        if (ResourceManager.I.taxes < requiredTaxes)
         {
             return false;
         }

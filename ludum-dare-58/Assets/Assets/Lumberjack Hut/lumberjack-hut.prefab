@@ -57,6 +57,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8024286361411551354, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 21300000, guid: d49921376724d0741aff11dab5d7ccbb, type: 3}
+    - target: {fileID: 8024286361411551354, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
       propertyPath: title
       value: Lumberjack Hut
       objectReference: {fileID: 0}
@@ -72,6 +76,10 @@ PrefabInstance:
     - target: {fileID: 8804827583928332077, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
       propertyPath: requiredWood
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804827583928332077, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
+      propertyPath: requiredTaxes
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

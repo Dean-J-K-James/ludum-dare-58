@@ -72,6 +72,10 @@ PrefabInstance:
       propertyPath: requiredWood
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 8804827583928332077, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
+      propertyPath: requiredTaxes
+      value: 25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -97,4 +101,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c30966597500f84ba0df0910f7b8655, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Greenhouse
-  interval: 4
+  interval: 1
+  amount: 1

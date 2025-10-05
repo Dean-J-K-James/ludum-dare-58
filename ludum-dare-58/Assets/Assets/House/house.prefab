@@ -57,13 +57,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8024286361411551354, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 21300000, guid: f2fdab2450ac5f249bc32cebb75a72fa, type: 3}
+    - target: {fileID: 8024286361411551354, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
       propertyPath: title
       value: House
       objectReference: {fileID: 0}
     - target: {fileID: 8024286361411551354, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
       propertyPath: description
-      value: Somewhere for your people to live. Provides [+4] housing Requires [12]
-        wood.
+      value: Somewhere for your people to live.
       objectReference: {fileID: 0}
     - target: {fileID: 8535242029103333141, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
       propertyPath: m_Name
@@ -71,7 +74,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8804827583928332077, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
       propertyPath: requiredWood
-      value: 12
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804827583928332077, guid: 5cc5a8d10a018644eafc585871a6b68b, type: 3}
+      propertyPath: requiredTaxes
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

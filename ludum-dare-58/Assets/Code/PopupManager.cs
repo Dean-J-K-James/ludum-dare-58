@@ -15,7 +15,7 @@ public class PopupManager : Singleton<PopupManager>
     {
         var e = Instantiate(prefab, transform);
 
-        e.transform.position = new Vector3(x, y, 0);
+        e.transform.position = new Vector3(x, y, -5);
         e.text.text = message;
     }
 }

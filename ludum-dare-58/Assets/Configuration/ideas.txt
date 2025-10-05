@@ -4,3 +4,27 @@
 -town hall is main building and roads must connect there.
 -goal is to have as high population as possible.
 -certain resources make town happiness increase. happy people pay more tax.
+
+
+-improve forest tile graphics.
+-add a couple variations of forest.
+-make map generation better and more exciting.
+
+-update all buildings once per second (tick). buildings produce resources after a certain number of ticks rather than seconds.
+-add tax.
+-add tax policies.
+-higher taxes make people less happy.
+-have to balance by adding parks and fun buildings.
+
+-add music.
+
+-buildings can only be placed on connected tiles.
+-when a building is placed, those tiles are now marked as connected.
+
+
+
+-do music
+-lumberjack hut requires adjacent forest tile.
+-show all buildings, but have a red tint or dark transparent overlay if not available.
+-have a building count to unlock new buildings.
+-for example, a house requires a building count of 1 townhall and 1 lumberjack.

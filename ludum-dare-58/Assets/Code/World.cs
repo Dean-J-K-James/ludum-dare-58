@@ -4,9 +4,6 @@
 
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
-using UnityEngine.Tilemaps;
-using static UnityEditor.ShaderData;
 
 /**
  * 

@@ -25,9 +25,8 @@ public class PopulationManager : ResourceProducer
             increase = -1;
         }
 
-
-
-
         ResourceManager.I.ChangePopulation(increase);
+
+        ResourceManager.I.ChangeTaxes(ResourceManager.I.population);
     }
 }

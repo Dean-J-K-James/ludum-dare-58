@@ -15,6 +15,14 @@ public class UIBuildingButton : MonoBehaviour, IPointerClickHandler, IPointerEnt
     public Image icon; //
     public TextMeshProUGUI title; //
     public Building building; //
+    public Image overlay; //
+    bool valid;
+
+    public void State(bool valid)
+    {
+        this.valid = valid;
+        overlay.gameObject.SetActive(!valid);
+    }
 
     /**
      * 
@@ -26,7 +34,7 @@ public class UIBuildingButton : MonoBehaviour, IPointerClickHandler, IPointerEnt
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        UIBuildingButtonTooltip.I.Show(building.description);
+        UIBuildingButtonTooltip.I.Show(building);
     }
 
     public void OnPointerExit(PointerEventData eventData)

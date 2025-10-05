@@ -18,6 +18,11 @@ public class BuildController : Singleton<BuildController>
     int oldx;
     int oldy;
 
+    void Start()
+    {
+        DoTutorial("");
+    }
+
     public void SetBuilding(Building t)
     {
         build = t;
@@ -54,7 +59,10 @@ public class BuildController : Singleton<BuildController>
             {
                 Debug.Log("Building " + build.name + " at " + tilePosition);
                 ResourceManager.I.ChangeWood(-build.GetComponent<BuildingValidator>().requiredWood);
+                ResourceManager.I.ChangeTaxes(-build.GetComponent<BuildingValidator>().requiredTaxes);
                 World.I.Create(build.GetComponent<Tile>(), tilePosition.x, tilePosition.y);
+
+                DoTutorial(build.name);
             }
         }
 
@@ -74,5 +82,36 @@ public class BuildController : Singleton<BuildController>
         mouse.GetComponent<SpriteRenderer>().color = isValid ? new Color(.5f, 1f, .5f, 0.5f) : new Color(1f, .5f, .5f, 0.5f);
 
         //mouse.GetComponent<SpriteRenderer>().sortingOrder = 9999999; // Mathf.FloorToInt((-1000f * mouse.transform.position.y) - 9);
+    }
+
+    public int tutorial = 0;
+    public GameObject[] tutorialSteps;
+
+    void DoTutorial(string building)
+    {
+        if (tutorial == 0 && building == "townhall")
+        {
+            tutorial = 1;
+        }
+
+        if (tutorial == 1 && building == "lumberjack-hut")
+        {
+            tutorial = 2;
+        }
+
+        if (tutorial == 2 && building == "house")
+        {
+            tutorial = 3;
+        }
+
+        if (tutorial == 3 && building == "field")
+        {
+            tutorial = 4;
+        }
+
+        for (int i = 0; i < tutorialSteps.Length; i++)
+        {
+            tutorialSteps[i].SetActive(i == tutorial);
+        }
     }
 }
